@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016/7/14 22:47:43。
+     1>项目“D:\Visual Studio 2012\Projects\WMandBloomFilter\WMandBloomFilter.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt wm.cpp
+         wm.cpp
+     1>wm.cpp(74): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>wm.cpp(138): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>wm.cpp(157): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>wm.cpp(373): warning C4018: “<”: 有符号/无符号不匹配
+     1>wm.cpp(578): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>wm.cpp(618): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>wm.cpp(631): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>wm.cpp(614): warning C4101: “line_break”: 未引用的局部变量
+     1>wm.cpp(612): warning C4101: “pat”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual Studio 2012\Projects\WMandBloomFilter\Release\WMandBloomFilter.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual Studio 2012\Projects\WMandBloomFilter\Release\WMandBloomFilter.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual Studio 2012\Projects\WMandBloomFilter\Release\WMandBloomFilter.lib" /MACHINE:X86 /SAFESEH Release\wm.obj
+         正在生成代码
+         已完成代码的生成
+         WMandBloomFilter.vcxproj -> D:\Visual Studio 2012\Projects\WMandBloomFilter\Release\WMandBloomFilter.exe
+     1>已完成生成项目“D:\Visual Studio 2012\Projects\WMandBloomFilter\WMandBloomFilter.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.90
